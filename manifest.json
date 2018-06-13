@@ -1,0 +1,14 @@
+{
+    "name": "AutoLogin",
+    "version": "1.0",
+    "description": "Save time, login quickly!",
+    "permissions": ["storage"],
+	"manifest_version": 2,
+    "browser_action": {
+        //"default_icon": "autologin-assets/status/status_disconnected.png",
+		"default_popup": "popup.html"
+    },
+	"permissions": [
+        "http://filter3external.schoolsbroadband.co.uk/*"
+    ]
+}
