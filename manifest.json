@@ -6,7 +6,7 @@
 	"manifest_version": 2,
     "browser_action": {
         "default_icon": "autologin-assets/status/status_disconnected.png",
-		"default_popup": "popup.html"
+	"default_popup": "popup.html"
     },
 	"permissions": [
         "http://filter3external.schoolsbroadband.co.uk/*"
